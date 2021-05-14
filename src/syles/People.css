@@ -1,0 +1,54 @@
+.center {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.people-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  padding: 3em;
+  text-align: center;
+  justify-self: center;
+}
+
+.person {
+  box-shadow: 1px 2px 1px 2px rgba(43, 86, 202, 0.342);
+  /* padding: 1em; */
+  background: red;
+  color: white;
+}
+.person > img {
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .people-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+.pagination button {
+  border: 0;
+  outline: 0;
+  padding: 0.7em 3em;
+}
+.pagination .next {
+  margin-left: 2em;
+  background: green;
+  color: white;
+}
+.pagination .previous {
+  background: rgba(56, 56, 129, 0.644);
+  color: white;
+}
+.pagination button:disabled {
+  background: rgb(243, 241, 241);
+  cursor: not-allowed;
+}

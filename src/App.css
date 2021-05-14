@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+.trouble {
+  position: absolute;
+  right: 0px;
+  top: -50px;
+  padding: 0;
+  z-index: -1;
+  margin: 0;
+  width: 700px;
+}
+.trouble img {
+  min-width: 100%;
+}
+.nav {
+  width: 85%;
+  margin: 5.125em auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav > h4 {
+  flex: 1;
+}
+.x {
+  background: rgb(79, 46, 253);
+  border-radius: 50%;
+  border: 0;
+  padding: 2px 6px;
+  color: white;
+  position: relative;
+  bottom: 5px;
+  left: 2px;
+  font-size: 10px;
+}
+.nav > .link-grp {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul > li > a {
+  margin: 0 1em;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(79, 46, 253);
+  font-weight: 400;
+}
+.cta-cont > a > button {
+  padding: 10px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  color: white;
+  background: rgb(79, 46, 253);
+}
+/* .home-container {
+  background-color: #fff;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/kayode/image/upload/v1614421837/Image_1_lo725y.svg');
+} */
+.showcase-cont {
+  background: url('https://res.cloudinary.com/kayode/image/upload/v1614500759/creative_c9anbc.svg')
+    no-repeat;
+  background-size: 250px 300px;
+}
+.showcase {
+  width: 75%;
+  margin: 10em auto;
+  color: rgba(80, 46, 255, 1);
+}
+.showcase > p {
+  font: normal normal 400 100px/80px 'Comic Neue', cursive;
+  letter-spacing: -2.98px;
+  color: #502eff;
+  opacity: 1;
+  width: 40%;
+}
+.play-icon-cont {
+  background: #502eff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 1.2em;
+}
+.play-icon {
+  font-size: 1.5em;
+}
+.play-cont {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+}
+.watch {
+  margin-left: 1em;
+  color: #000964;
+  font: normal normal bold 20px/23px Helvetica Neue;
+}
+
+.services-cont {
+  background-color: #502eff;
+  position: relative;
+  z-index: -4;
+  /* background-image: radial-gradient(black 5%, white 0%);
+  background-size: 5% 10%; */
+}
+.services {
+  padding: 3em;
+  width: 85%;
+  margin: 3em auto;
+}
+.block {
+  display: block;
+}
+.services span {
+  font: normal normal 400 80px/59px 'Maven Pro';
+  letter-spacing: -1.65px;
+  color: #ffffff;
+}
+.services-head {
+  margin: 3em 0 4em 0;
+}
+.work-cont {
+  display: flex;
+  width: 250px;
+  color: #ffffff;
+  margin: 2em;
+}
+.work-cont > .work-details {
+  margin-left: 15px;
+}
+.works-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5em;
+}
+.work-icon {
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+.higlight-img {
+  display: flex;
+}
+.higlight-img div {
+  flex: 1;
+}
+.higlight-img > div > img {
+  width: 100%;
+}
+.team-wrapper {
+  background: url('https://res.cloudinary.com/kayode/image/upload/v1614486619/team_p3qvur.svg')
+      no-repeat,
+    url('https://res.cloudinary.com/kayode/image/upload/v1614487340/Group_cvrtih.svg')
+      right top no-repeat;
+  padding: 2em;
+  background-size: 700px 600px;
+}
+.team-cont {
+  width: 85%;
+  margin: 0 auto;
+  padding: 3em;
+}
+.team-intro {
+  text-align: center;
+}
+
+.meet {
+  font: normal normal 200 25px/20px 'Maven Pro';
+  letter-spacing: -0.6px;
+  color: #bebebe;
+  opacity: 1;
+  margin: 0 0 1.5em 0;
+}
+.team-intro > div {
+  width: 30%;
+  margin: 0 auto;
+}
+.team-intro > div > span {
+  font: normal normal 200 38px/27px 'Maven Pro';
+  letter-spacing: -0.87px;
+  color: #502eff;
+  opacity: 1;
+}
+.teams-people-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 4em auto;
+}
+.team-card {
+  text-align: center;
+  /* width: 100px; */
+}
+.team-name {
+  text-align: center;
+  font: normal normal bold 20px/15px 'Maven Pro';
+  letter-spacing: -0.6px;
+  color: #502eff;
+}
+.team-card-img {
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-card-img > img {
+  width: 400px;
+}
+.jam {
+  background: rgb(243, 195, 184);
+}
+.ema {
+  background: rgb(232, 83, 43);
+}
+.mike {
+  background: rgb(62, 72, 99);
+}
+.team-card-img > .jam-img {
+  width: 470px;
+}
+.team-card-details {
+  text-align: center;
+  margin: 1.5em 0;
+}
+.team-card-details > .standard-span {
+  margin: 1em 0;
+}
+
+.team-card-details > .standard-span > span {
+  color: #bebebe;
+  font-size: 13x;
+  font-family: 'Maven Pro';
+}
+.team-links {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+.team-links img {
+  width: 0.95em;
+  height: 0.95em;
+  filter: invert(0.7) sepia(0) saturate(500%) hue-rotate(190deg);
+}
+.contact-cont {
+  text-align: center;
+}
+.cta-let {
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  padding: 1.5em 4em;
+  background: #502eff;
+  color: white;
+  border-radius: 25px;
+  font: normal normal medium 25px/29px Work Sans;
+  letter-spacing: 0px;
+}
+.contact {
+  width: 38%;
+  margin: 7em auto;
+}
+.contact span {
+  text-align: center;
+  font: normal normal 500 32px/40px Poppins;
+  letter-spacing: 0px;
+  color: #502eff;
+  opacity: 1;
+}
+.contact-form {
+  margin: 4em 0;
+}
+.contact-form input {
+  width: 200px;
+  padding: 0.8em 1em;
+  outline: 0;
+  border-radius: 20px;
+  border: 3px solid #502eff;
+}
+.contact-form input::placeholder {
+  color: #502eff;
+  font-weight: bolder;
+}
+.contact-form button {
+  margin-left: 1em;
+  color: white;
+  background: #502eff;
+  border: none;
+  outline: none;
+  padding: 0.75em 2.5em;
+  border-radius: 30px;
+}
+.footer {
+  background: rgb(247, 244, 255);
+  padding: 3em;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 63%;
+  margin: 3em auto;
+}
+.agency {
+  flex: 1;
+  margin: 1em;
+  color: #502eff;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.social-links img {
+  width: 1em;
+  height: 1em;
+  filter: invert(0.5) sepia(100%) saturate(500%) hue-rotate(190deg);
+}
+.title-footer {
+  color: #000964;
+  margin-bottom: 1.5em;
+}
+.do-wordings {
+  margin-top: 0;
+  font-size: 14px;
+}
+.medium {
+  font-size: 14px;
+}
+.hr {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #527ee9;
+  border-top: 1.5px solid;
+  opacity: 0.5;
+}
+.do-wordings-cont {
+  position: relative;
+  bottom: 25px;
+}
+.copyright {
+  text-align: center;
+  margin: 2em 0;
+  font: normal normal medium 15px/25px Poppins;
+  letter-spacing: 0px;
+  color: #502eff;
+}
+.hamburger {
+  display: none;
+  color: #502eff;
+  font-size: 2em;
+}
+.team-links img:hover {
+  filter: invert(0.3) sepia(1) saturate(100%) hue-rotate(120deg);
+}
+@media screen and (max-width: 900px) {
+  .nav {
+    width: 100%;
+  }
+  .nav ul {
+    flex-direction: column;
+  }
+  .hamburger {
+    display: block;
+  }
+  #show-menu {
+    display: block;
+  }
+  #hide-menu {
+    display: none;
+  }
+  .link-grp {
+    position: absolute;
+    top: 7.3em;
+    left: 0;
+    background: #502eff;
+    width: 100%;
+  }
+  .cta-cont {
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cta-cont > a > button {
+    background: white;
+    color: #502eff;
+    font-weight: bolder;
+  }
+  .nav ul > li > a {
+    color: white;
+    margin: 1em 0;
+  }
+  .nav ul > li > a:hover {
+    color: red;
+  }
+  .showcase {
+    width: 100%;
+  }
+  .footer {
+    padding: 1em;
+  }
+  .footer-wrapper {
+    width: 100%;
+    margin: 1em;
+  }
+  .hr {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+  }
+  .teams-people-cont {
+    flex-direction: column;
+  }
+  .team-card-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .team-card-img > img {
+    width: 100%;
+  }
+  .social-links {
+    width: 100%;
+  }
+  .team-wrapper {
+    background: url('https://res.cloudinary.com/kayode/image/upload/v1614486619/team_p3qvur.svg')
+        no-repeat,
+      url('https://res.cloudinary.com/kayode/image/upload/v1614487340/Group_cvrtih.svg')
+        center bottom no-repeat;
+    padding: 2em;
+    background-size: 700px 600px;
+  }
+  .trouble {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+  .teams-people-cont {
+    flex-direction: column;
+  }
+  .trouble {
+    width: 55%;
+  }
+  .team-card-img {
+    width: 500px;
+  }
+  .team-card-img > img {
+    width: 600px;
+  }
+  .nav ul > li > a {
+    margin: 0 0.6em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav {
+    padding: 0 1em;
+    width: 100%;
+  }
+  .trouble img {
+    width: 100%;
+  }
+  .home-container {
+    /* background: #000; */
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .services {
+    width: 100%;
+    padding: 1em;
+  }
+  .trouble {
+    width: 100%;
+  }
+  .play-cont {
+    text-align: center;
+    margin: 2em 4em;
+  }
+  .team-card-img {
+    width: 400px;
+  }
+  .team-card-img > img {
+    width: 400px;
+  }
+  .teams-people-cont {
+    width: 100%;
+  }
+  .footer-wrapper {
+    width: 100%;
+    margin: 1em;
+    flex-direction: column;
+  }
+  .work-icon {
+    width: 300px;
+  }
+  .showcase > p {
+    /* margin: 0 0 0 0; */
+    font: normal normal 400 60px/40px 'Comic Neue', cursive;
+    margin-left: 0.9em;
+  }
+  .services span {
+    font: normal normal 400 50px/39px 'Maven Pro';
+    letter-spacing: -1.65px;
+    color: #ffffff;
+  }
+  .services-head {
+    margin: 1em 0 4em 0;
+  }
+  .team-card-img {
+    margin: 0 0 0 0;
+    width: 200px;
+  }
+  .team-intro > div {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .trouble {
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+.cont {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-cont {
+  width: 70%;
+  background: green;
+  color: white;
+  display: flex;
+}
+.food-cont > img {
+  flex: 1;
+  width: 400px;
+  height: 400px;
+}
+.food-cont > div {
+  flex: 1;
+  text-align: left;
+}
